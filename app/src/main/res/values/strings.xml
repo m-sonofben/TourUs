@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">TourUs</string>
+
+    <string name="Attractions">Attractions</string>
+    <string name="Food">Food</string>
+    <string name="Accommodation">Accommodation</string>
+
 </resources>

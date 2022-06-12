@@ -6,6 +6,12 @@
         <item name="android:textAppearance">?android:textAppearanceMedium</item>
     </style>
 
+    <style name="attractionInfo">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:layout_margin">20dp</item>
+    </style>
+
 
 
 

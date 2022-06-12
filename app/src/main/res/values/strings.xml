@@ -5,4 +5,19 @@
     <string name="Food">Food</string>
     <string name="Accommodation">Accommodation</string>
 
+    <string name="attractionNameTitle">Attraction name:</string>
+    <string name="attractionHoursTitle">Hours:</string>
+    <string name="attractionAddressTitle">Address:</string>
+    <string name="attractionPriceTitle">Price</string>
+    <string name="attractionPhoneNumberTitle">Phone Number:</string>
+    <string name="attractionDescriptionTitle">Description:</string>
+
+    <string name="attractionName">Attraction name here</string>
+    <string name="attractionHours">Attraction hours here</string>
+    <string name="attractionAddress">Attraction address here</string>
+    <string name="attractionPrice">Attraction price here</string>
+    <string name="attractionPhoneNumber">Attraction phone number here</string>
+    <string name="attractionDescription">Attraction description here</string>
+
+
 </resources>

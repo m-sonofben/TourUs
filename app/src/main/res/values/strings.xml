@@ -20,4 +20,24 @@
     <string name="attractionDescription">Attraction description here</string>
 
 
+    <string name="super_coaster_extreme">Roller coaster, elevated railway with steep inclines and
+        descents that carries a train of passengers through sharp curves and sudden changes of speed
+        and direction for a brief thrill ride. Found mostly in amusement parks as a continuous loop,
+        it is a popular leisure activity.
+    </string>
+
+    <string name="bungee_jump">Bungee jumping is an adventurous sport in which people jump from
+        higher ground such as a bridge with an elastic rope tied to their ankles to stop them from
+        hitting the ground. The rope is designed to stretch, not break. When the rope has stretched
+        all the way, the jumper bounces back up. When people jump they wear safety equipment like
+        helmets and a harness.
+
+    </string>
+
+    <string name="virtual_reality">Virtual Reality (VR) is a computer-generated environment with
+        scenes and objects that appear to be real, making the user feel they are immersed in their
+        surroundings. This environment is perceived through a device known as a Virtual Reality
+        headset or helmet.
+    </string>
+
 </resources>

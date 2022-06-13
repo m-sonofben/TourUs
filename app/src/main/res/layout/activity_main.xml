@@ -9,4 +9,9 @@
     android:background="@color/hub_background"
     android:orientation="vertical"
     android:id="@+id/rootView">
+
+
+
+
+
 </LinearLayout>

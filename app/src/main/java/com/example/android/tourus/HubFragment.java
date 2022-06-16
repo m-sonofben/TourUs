@@ -15,8 +15,11 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 public class HubFragment extends Fragment {
+
+    Button btAttractions;
 
     @Nullable
     @Override
@@ -29,6 +32,32 @@ public class HubFragment extends Fragment {
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
+        createOnclickListeners();
+    }
+
+
+    private void createOnclickListeners() {
+        btAttractions = getView().findViewById(R.id.bt_attractions);
+        btAttractions.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+//                Toast.makeText(getActivity(), "testing", Toast.LENGTH_SHORT).show();
+
+            }
+        });
+
 
     }
+
+
+
+
+
+
+
+
+
+
 }
+
+

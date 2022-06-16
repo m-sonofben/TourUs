@@ -8,7 +8,7 @@
     tools:context=".AttractionsFragment">
 
     <ImageView
-        android:id="@+id/iv_attractionSamplePhoto"
+        android:id="@+id/iv_rollerCoaster"
         android:layout_width="300dp"
         android:layout_height="300dp"
         android:layout_margin="16dp"
@@ -18,33 +18,26 @@
         android:src="@drawable/amusement_park">
     </ImageView>
 
-    <TextView
-        android:id="@+id/tv_attractionNameTitle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/iv_attractionSamplePhoto"
-        app:layout_constraintStart_toStartOf="parent"
-        android:textStyle="bold"
-        android:text="@string/attractionNameTitle"
-        style="@style/attractionInfo">
-    </TextView>
 
     <TextView
         android:id="@+id/tv_attractionNameInfo"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/iv_attractionSamplePhoto"
+        app:layout_constraintTop_toBottomOf="@id/iv_rollerCoaster"
 
         app:layout_constraintEnd_toEndOf="parent"
-        android:text="@string/attractionName"
-        style="@style/attractionInfo">
+        android:text="@string/rollerCoasterName"
+        style="@style/attractionInfo"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textSize="30sp">
     </TextView>
 
     <TextView
         android:id="@+id/tv_attractionHoursTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/tv_attractionNameTitle"
+        app:layout_constraintTop_toBottomOf="@id/tv_attractionNameInfo"
         app:layout_constraintStart_toStartOf="parent"
         android:textStyle="bold"
         android:text="@string/attractionHoursTitle"
@@ -58,7 +51,7 @@
         app:layout_constraintTop_toBottomOf="@id/tv_attractionNameInfo"
 
         app:layout_constraintEnd_toEndOf="parent"
-        android:text="@string/attractionHours"
+        android:text="@string/rollerCoasterHours"
         style="@style/attractionInfo">
     </TextView>
 
@@ -81,7 +74,7 @@
         app:layout_constraintTop_toBottomOf="@id/tv_attractionHoursInfo"
 
         app:layout_constraintEnd_toEndOf="parent"
-        android:text="@string/attractionAddress"
+        android:text="@string/rollerCoasterAddress"
         style="@style/attractionInfo">
     </TextView>
 
@@ -103,7 +96,7 @@
         app:layout_constraintTop_toBottomOf="@id/tv_attractionAddressInfo"
 
         app:layout_constraintEnd_toEndOf="parent"
-        android:text="@string/attractionPrice"
+        android:text="@string/rollerCoasterPrice"
         style="@style/attractionInfo">
     </TextView>
 
@@ -125,7 +118,7 @@
         app:layout_constraintTop_toBottomOf="@id/tv_attractionPriceInfo"
 
         app:layout_constraintEnd_toEndOf="parent"
-        android:text="@string/attractionPhoneNumber"
+        android:text="@string/rollerCoasterPhoneNumber"
         style="@style/attractionInfo">
     </TextView>
 
@@ -149,7 +142,7 @@
         app:layout_constraintTop_toBottomOf="@id/tv_attractionDescriptionTitle"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:text="@string/attractionDescription"
+        android:text="@string/rollerCoasterDescription"
         style="@style/attractionInfo">
     </TextView>
 

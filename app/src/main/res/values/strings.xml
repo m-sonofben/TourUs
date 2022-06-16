@@ -12,15 +12,14 @@
     <string name="attractionPhoneNumberTitle">Phone Number:</string>
     <string name="attractionDescriptionTitle">Description:</string>
 
-    <string name="attractionName">Attraction name here</string>
-    <string name="attractionHours">Attraction hours here</string>
-    <string name="attractionAddress">Attraction address here</string>
-    <string name="attractionPrice">Attraction price here</string>
-    <string name="attractionPhoneNumber">Attraction phone number here</string>
-    <string name="attractionDescription">Attraction description here</string>
+    <string name="rollerCoasterName">Super Coaster EXTREME!</string>
+    <string name="rollerCoasterHours">Mon 8am - 5pm
+    </string>
+    <string name="rollerCoasterAddress">Attraction address here</string>
+    <string name="rollerCoasterPrice">Attraction price here</string>
+    <string name="rollerCoasterPhoneNumber">Attraction phone number here</string>
 
-
-    <string name="super_coaster_extreme">Roller coaster, elevated railway with steep inclines and
+    <string name="rollerCoasterDescription">Roller coaster, elevated railway with steep inclines and
         descents that carries a train of passengers through sharp curves and sudden changes of speed
         and direction for a brief thrill ride. Found mostly in amusement parks as a continuous loop,
         it is a popular leisure activity.

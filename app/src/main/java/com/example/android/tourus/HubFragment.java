@@ -24,7 +24,6 @@ public class HubFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-//        return super.onCreateView(inflater, container, savedInstanceState);
         View rootView = inflater.inflate(R.layout.fragment_hub, container, false);
         return rootView;
     }
@@ -41,7 +40,8 @@ public class HubFragment extends Fragment {
         btAttractions.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-//                Toast.makeText(getActivity(), "testing", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getActivity(), "testing", Toast.LENGTH_SHORT).show();
+                Navigation.findNavController(view).navigate(R.id.action_hubFragment_to_attractionsFragment);
 
             }
         });

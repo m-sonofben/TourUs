@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
 
         if (savedInstanceState == null) {
             getSupportFragmentManager().beginTransaction().setReorderingAllowed(true)
-                    .add(R.id.fragmentContainerView, HubFragment.class, null)
+                    .add(R.id.nav_host_fragment, HubFragment.class, null)
                     .commit();
         }
     }

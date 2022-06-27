@@ -13,10 +13,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-        if (savedInstanceState == null) {
-            getSupportFragmentManager().beginTransaction().setReorderingAllowed(true)
-                    .add(R.id.nav_host_fragment, HubFragment.class, null)
-                    .commit();
-        }
+//        if (savedInstanceState == null) {
+//            getSupportFragmentManager().beginTransaction().setReorderingAllowed(true)
+//                    .add(R.id.nav_host_fragment, HubFragment.class, null)
+//                    .commit();
+//        }
     }
 }
